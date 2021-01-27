@@ -1,0 +1,6 @@
+[submodule "affordability"]
+	path = affordability
+	url = https://github.com/AXlia/affordability.git
+[submodule "carousel-service"]
+	path = carousel-service
+	url = https://github.com/AXlia/carousel-service.git
