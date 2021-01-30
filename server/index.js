@@ -37,14 +37,12 @@ app.use('/api/all_rates', createProxyMiddleware({
   target: 'http://localhost:3002',
   changeOrigin: true,
 }));
-app.use('/api/home_price', createProxyMiddleware({
+app.use('/api/home_price/:id', createProxyMiddleware({
   target: 'http://localhost:3002',
   changeOrigin: true,
 }));
 
 
-//adam's ip
-// 54.186.33.211
 app.listen(port, (err) => {
   if (err) {
     console.log('error occured in server ', err);
