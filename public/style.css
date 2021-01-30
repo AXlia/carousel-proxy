@@ -1,0 +1,36 @@
+
+html, body {
+  font-family: 'Cabin', Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 20px;
+}
+
+.homeDetails {
+  width: 70%;
+  margin: 0 213px;
+}
+
+.taxes {
+  width: 70%;
+  margin: 0 215px;
+  padding-top: 24px;
+}
+
+.footer {
+  width: 70%;
+  margin: 0 215px;
+  padding-top: 24px;
+}
+#carousel {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#affordability {
+  margin: 50px;
+}
